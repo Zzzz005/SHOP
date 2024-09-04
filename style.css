@@ -209,6 +209,9 @@ body{
     color: #707070;
 }
 
+.info{
+    font-size: 16px;
+}
 .info span{
     color: black;
 }
