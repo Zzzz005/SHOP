@@ -285,7 +285,8 @@ body{
 @media (max-width: 950px){
     .header-r,
     .menu-text,
-    .icon
+    .icon,
+    .Shop-bodyUp
     {
         display: none;
     }
