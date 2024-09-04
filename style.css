@@ -225,10 +225,14 @@ body{
 }
 
 .Shop-body{
-    padding-top: 96px;
     display: block;
     font-size: 33px;
     font-weight:normal;
+}
+
+.shop-title{
+    padding-top: 96px;
+
 }
 
 .Shop-bodyUp{
@@ -275,10 +279,40 @@ body{
     font-size: small;
     padding-bottom: 5px;
 }
-
-.sort-btn span{
-    
+.form-2{
+    display: none;
+    width: 100%;
+    margin-bottom: 24px;
 }
+
+.form-element2{
+    display: flex;
+    justify-content: start;
+    border: none;
+    background-color: #EFEFEF;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 100%;
+}
+
+.form-element2 input[type="text"]{
+    margin-left: 8px;
+    font-size: 14px;
+    align-items: center;
+    box-sizing:content-box;
+    outline: none;
+    border: none;
+    background-color: #EFEFEF;
+    width: 100%;
+
+}
+
+.form-element2 input[placeholder]{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+
 
 @media (max-width: 1500px){
     
@@ -289,11 +323,12 @@ body{
     .header-r,
     .menu-text,
     .icon,
-    .Shop-bodyUp
+    .form-1
     {
         display: none;
     }
-    .header-menu{
+    .header-menu,
+    .form-2{
         display: flex;
     }
     
@@ -301,7 +336,8 @@ body{
         grid-template-columns: repeat(2, 1fr); 
     }
     .footerUp, 
-    .footerDown{
+    .footerDown,
+    .shop-bodyMiddle{
         display: grid;
     }
     
@@ -349,7 +385,8 @@ body{
     .contact a{
         margin-top: 8px;
     }
-    .form-element input[type="text"]{
+    .form-element input[type="text"],
+    .Shop-bodyUp{
         width: 100%;
     }
 }
