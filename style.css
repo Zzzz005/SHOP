@@ -350,6 +350,38 @@ body{
     margin-top: 24px;
 }
 
+.AboutUs{
+    display: block;
+    text-align: center;
+    padding: 90px 20%;
+}
+
+.About-title2{
+    font-size: 20px;
+    padding-top: 24px;
+}
+
+.About-disc{
+    margin-top: 48px;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.About-minititle{
+    font-size: 26px;
+    margin-top: 39px;
+    margin-bottom: 23px;
+    text-align: start;
+}
+.About-minititle span{
+    font-weight:600;
+}
+
+.AboutUs-image{
+    align-items: center;
+    width: 100%;
+}
 
 
 @media (max-width: 1500px){
@@ -427,6 +459,10 @@ body{
     .Shop-bodyUp{
         width: 100%;
     }
+    .AboutUs{
+        padding: 90px 10%;
+    }
+
 }
 
 @media (max-width: 700px){
@@ -454,7 +490,10 @@ body{
         transform: translate(-6%,  -85%);
     }
     .BlogDown{
-        grid-template-columns: repeat(1, 1fr); 
+        grid-template-columns: repeat(1 , 1fr); 
+    }
+    .AboutUs{
+        padding: 90px 5%;
     }
     
 }
