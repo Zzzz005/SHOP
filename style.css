@@ -163,6 +163,7 @@ body{
     max-width: 100%;
 }
 .card-text{
+    padding: 5px 0px;
     margin-bottom: 16px;
     color: black;
 }
@@ -236,7 +237,7 @@ body{
 }
 
 .Shop-bodyUp{
-    width: 20%;
+    width: 23%;
     margin-right: 34px;
 }
 
@@ -312,6 +313,43 @@ body{
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
 }
+
+.categoryTitle{
+    padding-top: 28px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.category{
+    display: block;
+}
+
+.category{
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.BlogDown{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+    margin-bottom: 86px;
+}
+
+.card-date{
+    color: #707070;
+    font-size: 14px;
+    width: 77%;
+}
+
+.Read-More{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
 
 
 @media (max-width: 1500px){
@@ -414,6 +452,9 @@ body{
         left: 6%;
         top:85%;
         transform: translate(-6%,  -85%);
+    }
+    .BlogDown{
+        grid-template-columns: repeat(1, 1fr); 
     }
     
 }
